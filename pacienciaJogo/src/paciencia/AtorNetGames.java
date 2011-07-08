@@ -1,5 +1,8 @@
 package paciencia;
 
+import br.ufsc.inf.leobr.cliente.Jogada;
+import br.ufsc.inf.leobr.cliente.OuvidorProxy;
+
 public class AtorNetGames implements OuvidorProxy {
 
     /**
@@ -114,8 +117,10 @@ public class AtorNetGames implements OuvidorProxy {
      * @param jogada
      * @return 
      */
-    public void receberJogada(Jogada jogada) {
-        throw new UnsupportedOperationException();
-    }
+	@Override
+	public void receberJogada(Jogada jogada) {
+		// TODO Auto-generated method stub
+		
+	}
 
 }

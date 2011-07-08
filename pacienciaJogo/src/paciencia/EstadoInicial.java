@@ -1,9 +1,12 @@
 package paciencia;
 
+import java.util.ArrayList;
+import java.util.Collection;
+
 import br.ufsc.inf.leobr.cliente.*;
 import paciencia.Regras.*;
 
-public class EstadoInicial implements Jogada, Jogada {
+public class EstadoInicial implements Jogada{
 
     public Collection<ArrayList<Pilha>> pilhas;
     public Collection<ArrayList<Bagaco>> bagacos;

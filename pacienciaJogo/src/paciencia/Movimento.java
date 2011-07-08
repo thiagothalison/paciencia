@@ -2,7 +2,7 @@ package paciencia;
 
 import br.ufsc.inf.leobr.cliente.*;
 
-public class Movimento implements Jogada, Jogada {
+public class Movimento implements Jogada{
 
     public int origem;
     public int destino;
@@ -16,5 +16,7 @@ public class Movimento implements Jogada, Jogada {
     public Movimento(int origem, int destino) {
         throw new UnsupportedOperationException();
     }
+    
+    public Movimento(){}
 
 }

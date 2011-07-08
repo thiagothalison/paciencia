@@ -5,7 +5,7 @@ import br.ufsc.inf.leobr.cliente.*;
 /**
  * Esta classe � utilizada quando o jogador efetuar um movimento que lhe garante a vit�ria.
  */
-public class MovimentoVencedor extends Movimento implements Jogada, Jogada {
+public class MovimentoVencedor extends Movimento{
 
     private String vencedor;
 
@@ -17,6 +17,7 @@ public class MovimentoVencedor extends Movimento implements Jogada, Jogada {
      * @return 
      */
     public MovimentoVencedor(int origem, int destino, String vencedor) {
+    	super();
         throw new UnsupportedOperationException();
     }
 
