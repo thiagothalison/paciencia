@@ -1,7 +1,7 @@
 package paciencia;
 
 public class Carta {
-	//this is a test
+	//blablablabla
     private String naipe;
     private Integer numero;
     
